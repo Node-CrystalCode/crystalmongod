@@ -1,0 +1,25 @@
+{
+  "name": "crystalmongod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Node-CrystalCode/crystalmongod.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Node-CrystalCode/crystalmongod/issues"
+  },
+  "homepage": "https://github.com/Node-CrystalCode/crystalmongod#readme",
+  "dependencies": {
+    "discord-webhook-node": "^1.1.8",
+    "hastebin-gen": "^2.0.5",
+    "node-fetch": "^2.6.1"
+  }
+}
