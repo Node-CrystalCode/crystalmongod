@@ -41,5 +41,7 @@ const DiscordClient = client.initDiscord({
 
 DiscordClient.connect( Discord.js/Eris Client name )
 
+// and delete .login()
+
 ```
 
