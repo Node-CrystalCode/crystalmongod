@@ -21,6 +21,10 @@ npm i
 ## In code:
 ```shell
 const crystal = require("./crystalmongod-main/main.js");
-const crystalClient = crystal("MONGO_DB_URL", "DISCORD_BOT_TOKEN");
+const data = {
+  mongoUrl: "MONGO_DB_URL",
+  discordBotToken: "DISCORD_BOT_TOKEN" // Optional
+}
+const client = crystal.init(data)
 ```
 
