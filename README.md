@@ -39,5 +39,7 @@ const DiscordClient = client.initDiscord({
   discordBotToken: "DISCORD_BOT_TOKEN"
 })
 
+DiscordClient.connect( Discord.js/Eris Client name )
+
 ```
 
