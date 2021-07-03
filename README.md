@@ -28,3 +28,16 @@ const data = {
 const client = crystal.init(data)
 ```
 
+## If you using lib for Discord Bots:
+```shell
+const crystal = require("./crystalmongod-main/main.js");
+const data = {
+  mongoUrl: "MONGO_DB_URL"
+}
+const client = crystal.init(data)
+const DiscordClient = client.initDiscord({
+  discordBotToken: "DISCORD_BOT_TOKEN"
+})
+
+```
+
